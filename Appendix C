@@ -1,0 +1,225 @@
+Table C1. Output of full regression model with race
+
+Coefficients:
+                                           Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                              -1.092e+01  1.059e+00 -10.306  < 2e-16 ***
+pop_over_65                              -5.065e-02  1.123e-02  -4.510 6.49e-06 ***
+under18                                   4.486e-01  1.497e+00   0.300 0.764425    
+log_commute                              -2.136e+01  4.288e+00  -4.982 6.30e-07 ***
+edu_health_social_industry                2.181e-02  8.376e-03   2.604 0.009217 ** 
+Administered_Dose1_Pop_Pct               -8.878e-02  3.404e-03 -26.079  < 2e-16 ***
+binge                                     3.649e-01  2.000e-02  18.245  < 2e-16 ***
+lpa                                      -6.955e-02  1.677e-02  -4.147 3.38e-05 ***
+chd                                       1.388e+00  1.438e-01   9.651  < 2e-16 ***
+csmoking                                 -1.775e-01  3.013e-02  -5.892 3.83e-09 ***
+diabetes                                  4.704e-01  5.802e-02   8.107 5.25e-16 ***
+health_insur_coverage                     8.432e+00  7.722e-01  10.919  < 2e-16 ***
+white                                     4.218e+00  9.200e-01   4.585 4.54e-06 ***
+black                                     2.769e+00  1.020e+00   2.714 0.006645 ** 
+hispanic                                  4.726e+00  5.638e-01   8.381  < 2e-16 ***
+native                                    8.263e+00  1.287e+00   6.419 1.38e-10 ***
+asian                                     2.112e+01  2.486e+00   8.497  < 2e-16 ***
+pop_over_65:under18                       8.825e-02  5.164e-03  17.089  < 2e-16 ***
+pop_over_65:log_commute                  -4.825e-02  3.186e-02  -1.514 0.129972    
+pop_over_65:edu_health_social_industry    2.723e-04  4.812e-05   5.658 1.53e-08 ***
+pop_over_65:Administered_Dose1_Pop_Pct   -1.014e-04  2.070e-05  -4.895 9.82e-07 ***
+pop_over_65:binge                        -1.184e-03  1.119e-04 -10.581  < 2e-16 ***
+pop_over_65:lpa                          -1.249e-03  9.479e-05 -13.173  < 2e-16 ***
+pop_over_65:chd                          -1.044e-02  9.257e-04 -11.273  < 2e-16 ***
+pop_over_65:csmoking                      2.635e-03  1.874e-04  14.058  < 2e-16 ***
+pop_over_65:diabetes                      5.653e-03  4.501e-04  12.558  < 2e-16 ***
+pop_over_65:health_insur_coverage        -1.267e-04  7.356e-03  -0.017 0.986253    
+pop_over_65:white                         8.164e-02  8.864e-03   9.211  < 2e-16 ***
+pop_over_65:black                         3.187e-02  9.741e-03   3.271 0.001071 ** 
+pop_over_65:hispanic                      -5.397e-03  5.249e-03  -1.028 0.303909    
+pop_over_65:native                        7.668e-02  1.202e-02   6.379 1.79e-10 ***
+pop_over_65:asian                         2.195e-01  2.160e-02  10.162  < 2e-16 ***
+under18:log_commute                       4.021e+00  3.214e+00   1.251 0.210828    
+under18:edu_health_social_industry       -3.285e-02  5.730e-03  -5.733 9.90e-09 ***
+under18:Administered_Dose1_Pop_Pct       -7.522e-04  2.905e-03  -0.259 0.795704    
+under18:binge                            -1.038e-01  1.543e-02  -6.728 1.73e-11 ***
+under18:lpa                              -9.757e-02  1.300e-02  -7.506 6.14e-14 ***
+under18:chd                              -1.868e-01  1.303e-01  -1.434 0.151717    
+under18:csmoking                          1.379e-01  2.512e-02   5.490 4.03e-08 ***
+under18:diabetes                          3.916e-02  6.429e-02   0.609 0.542452    
+under18:health_insur_coverage            -2.845e+00  9.247e-01  -3.077 0.002092 ** 
+under18:white                             5.371e+00  1.089e+00   4.932 8.13e-07 ***
+under18:black                             8.339e+00  1.233e+00   6.765 1.34e-11 ***
+under18:hispanic                          3.253e+00  7.160e-01   4.543 5.55e-06 ***
+under18:native                            1.033e+01  1.313e+00   7.870 3.57e-15 ***
+under18:asian                            -8.689e+00  2.533e+00  -3.431 0.000602 ***
+log_commute:edu_health_social_industry   -1.806e-01  2.275e-02  -7.939 2.05e-15 ***
+log_commute:Administered_Dose1_Pop_Pct    3.684e-02  9.484e-03   3.884 0.000103 ***
+log_commute:binge                         1.355e-01  4.800e-02   2.822 0.004771 ** 
+log_commute:lpa                           4.847e-01  4.851e-02   9.992  < 2e-16 ***
+log_commute:chd                          -3.096e+00  4.524e-01  -6.844 7.73e-12 ***
+log_commute:csmoking                      3.871e-01  8.249e-02   4.693 2.69e-06 ***
+log_commute:diabetes                     -6.416e-01  2.166e-01  -2.963 0.003052 ** 
+log_commute:health_insur_coverage         2.862e+01  3.813e+00   7.507 6.09e-14 ***
+log_commute:white                        -2.576e+00  3.325e+00  -0.775 0.438540    
+log_commute:black                         3.817e+00  4.062e+00   0.940 0.347322    
+log_commute:hispanic                      5.314e+00  2.252e+00   2.360 0.018263 *  
+log_commute:native                       -3.142e+01  5.890e+00  -5.334 9.61e-08 ***
+log_commute:asian                        -1.399e+01  4.702e+00  -2.976 0.002917 ** 
+edu_health_social_industry:Administered_Dose1_Pop_Pct 5.050e-05  1.501e-05   3.363 0.000770 ***
+edu_health_social_industry:binge         -7.884e-04  8.563e-05  -9.208  < 2e-16 ***
+edu_health_social_industry:lpa           -4.087e-04  7.478e-05  -5.466 4.62e-08 ***
+edu_health_social_industry:chd           -9.197e-03  6.971e-04 -13.193  < 2e-16 ***
+edu_health_social_industry:csmoking       7.884e-04  1.407e-04   5.603 2.11e-08 ***
+edu_health_social_industry:diabetes       3.423e-03  3.487e-04   9.817  < 2e-16 ***
+edu_health_social_industry:health_insur_coverage  7.516e-03  4.569e-03   1.645 0.099957 .  
+edu_health_social_industry:white          8.535e-03  6.534e-03   1.306 0.191450    
+edu_health_social_industry:black         -8.218e-03  7.362e-03  -1.116 0.264316    
+edu_health_social_industry:hispanic      -9.485e-03  3.982e-03  -2.382 0.017232 *  
+edu_health_social_industry:native        -3.305e-03  8.510e-03  -0.388 0.697750    
+edu_health_social_industry:asian         -7.249e-02  1.478e-02  -4.906 9.31e-07 ***
+Administered_Dose1_Pop_Pct:binge         -2.096e-04  3.542e-05  -5.918 3.27e-09 ***
+Administered_Dose1_Pop_Pct:lpa            6.165e-04  2.965e-05  20.793  < 2e-16 ***
+Administered_Dose1_Pop_Pct:chd            1.436e-03  3.014e-04   4.765 1.89e-06 ***
+Administered_Dose1_Pop_Pct:csmoking      -5.100e-04  5.916e-05  -8.620  < 2e-16 ***
+Administered_Dose1_Pop_Pct:diabetes      -1.609e-03  1.384e-04 -11.622  < 2e-16 ***
+Administered_Dose1_Pop_Pct:health_insur_coverage     5.973e-02  2.002e-03  29.841  < 2e-16 ***
+Administered_Dose1_Pop_Pct:white          3.608e-02  2.342e-03  15.408  < 2e-16 ***
+Administered_Dose1_Pop_Pct:black          4.234e-02  2.609e-03  16.232  < 2e-16 ***
+Administered_Dose1_Pop_Pct:hispanic       1.896e-02  1.462e-03  12.967  < 2e-16 ***
+Administered_Dose1_Pop_Pct:native         8.328e-02  3.055e-03  27.264  < 2e-16 ***
+Administered_Dose1_Pop_Pct:asian          7.108e-02  6.446e-03  11.027  < 2e-16 ***
+binge:lpa                                -1.155e-03  1.547e-04  -7.461 8.65e-14 ***
+binge:chd                                -5.432e-03  1.471e-03  -3.692 0.000223 ***
+binge:csmoking                            1.042e-03  2.196e-04   4.744 2.09e-06 ***
+binge:diabetes                            1.148e-02  6.460e-04  17.778  < 2e-16 ***
+binge:health_insur_coverage              -2.293e-01  1.165e-02 -19.672  < 2e-16 ***
+binge:white                              -1.305e-01  1.547e-02  -8.439  < 2e-16 ***
+binge:black                              -1.802e-01  1.664e-02 -10.830  < 2e-16 ***
+binge:hispanic                           -1.477e-01  9.044e-03 -16.328  < 2e-16 ***
+binge:native                             -3.395e-01  1.822e-02 -18.631  < 2e-16 ***
+binge:asian                              -3.803e-01  3.224e-02 -11.797  < 2e-16 ***
+lpa:chd                                  -2.044e-03  1.249e-03  -1.637 0.101718    
+lpa:csmoking                             -8.460e-04  2.251e-04  -3.759 0.000171 ***
+lpa:diabetes                              2.164e-03  5.901e-04   3.667 0.000246 ***
+lpa:health_insur_coverage                 1.861e-01  1.046e-02  17.786  < 2e-16 ***
+lpa:white                                -2.734e-02  1.173e-02  -2.331 0.019775 *  
+lpa:black                                -5.366e-02  1.251e-02  -4.290 1.78e-05 ***
+lpa:hispanic                             -1.130e-01  7.795e-03 -14.496  < 2e-16 ***
+lpa:native                               -4.580e-02  1.455e-02  -3.148 0.001645 ** 
+lpa:asian                                -4.271e-01  2.687e-02 -15.899  < 2e-16 ***
+chd:csmoking                             -6.021e-03  1.383e-03  -4.355 1.33e-05 ***
+chd:diabetes                              2.836e-02  3.390e-03   8.363  < 2e-16 ***
+chd:health_insur_coverage                 2.603e-01  9.428e-02   2.761 0.005768 ** 
+chd:white                                -1.422e+00  1.029e-01 -13.823  < 2e-16 ***
+chd:black                                -1.565e+00  1.091e-01 -14.340  < 2e-16 ***
+chd:hispanic                             -9.631e-01  5.915e-02 -16.281  < 2e-16 ***
+chd:native                               -8.082e-01  1.351e-01  -5.982 2.21e-09 ***
+chd:asian                                 4.597e-02  2.532e-01   0.182 0.855910    
+csmoking:diabetes                        -4.803e-03  9.329e-04  -5.149 2.63e-07 ***
+csmoking:health_insur_coverage           -1.802e-02  1.782e-02  -1.012 0.311662    
+csmoking:white                            2.254e-01  2.223e-02  10.142  < 2e-16 ***
+csmoking:black                            2.898e-01  2.341e-02  12.380  < 2e-16 ***
+csmoking:hispanic                         2.222e-01  1.200e-02  18.514  < 2e-16 ***
+csmoking:native                           2.587e-01  2.770e-02   9.339  < 2e-16 ***
+csmoking:asian                            3.312e-01  5.408e-02   6.125 9.12e-10 ***
+diabetes:health_insur_coverage           -1.052e+00  4.372e-02 -24.052  < 2e-16 ***
+diabetes:white                            1.189e-01  3.466e-02   3.429 0.000606 ***
+diabetes:black                            1.185e-01  3.360e-02   3.527 0.000420 ***
+diabetes:hispanic                         1.038e-01  1.452e-02   7.150 8.75e-13 ***
+diabetes:native                          -6.426e-01  5.093e-02 -12.618  < 2e-16 ***
+diabetes:asian                           -3.203e-01  1.045e-01  -3.064 0.002183 ** 
+health_insur_coverage:white              -2.807e+00  5.869e-01  -4.782 1.74e-06 ***
+health_insur_coverage:black               9.729e-02  7.032e-01   0.138 0.889967    
+health_insur_coverage:hispanic            9.946e-01  4.323e-01   2.301 0.021414 *  
+health_insur_coverage:native             -1.530e+00  7.837e-01  -1.952 0.050894 .  
+health_insur_coverage:asian              -1.274e+01  2.110e+00  -6.037 1.57e-09 ***
+white:black                               5.909e-01  1.158e-01   5.102 3.37e-07 ***
+white:hispanic                           -7.506e-01  2.319e-01  -3.237 0.001209 ** 
+white:native                             -1.712e+00  2.792e-01  -6.131 8.74e-10 ***
+white:asian                               3.264e+00  6.157e-01   5.301 1.15e-07 ***
+black:hispanic                           -1.873e+00  1.908e-01  -9.817  < 2e-16 ***
+black:native                              4.063e+00  4.309e-01   9.430  < 2e-16 ***
+black:asian                               9.616e+00  8.559e-01  11.235  < 2e-16 ***
+hispanic:native                           1.538e+00  3.940e-01   3.905 9.42e-05 ***
+hispanic:asian                            4.921e+00  8.256e-01   5.961 2.52e-09 ***
+native:asian                             -2.166e+01  2.410e+00  -8.989  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2268 on 114548 degrees of freedom
+Multiple R-squared:  0.418,	Adjusted R-squared:  0.4173 
+F-statistic: 604.9 on 136 and 114548 DF,  p-value: < 2.2e-16
+
+Table C2. Output of reduced regression model without race
+
+Coefficients:
+                                           Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                              -6.902e+00  5.021e-01 -13.747  < 2e-16 ***
+pop_over_65                               3.483e-02  7.528e-03   4.627 3.71e-06 ***
+under18                                   1.716e+01  9.033e-01  18.998  < 2e-16 ***
+log_commute                              -4.161e+01  3.196e+00 -13.019  < 2e-16 ***
+edu_health_social_industry                4.042e-02  5.419e-03   7.459 8.79e-14 ***
+Administered_Dose1_Pop_Pct               -2.378e-02  2.259e-03 -10.528  < 2e-16 ***
+binge                                     1.798e-01  1.193e-02  15.072  < 2e-16 ***
+lpa                                      -2.017e-01  1.117e-02 -18.056  < 2e-16 ***
+chd                                       1.624e-01  9.003e-02   1.804 0.071292 .  
+csmoking                                  4.573e-02  1.683e-02   2.717 0.006591 ** 
+diabetes                                  6.192e-01  2.793e-02  22.170  < 2e-16 ***
+health_insur_coverage                     4.472e+00  4.153e-01  10.768  < 2e-16 ***
+pop_over_65:under18                       1.050e-01  4.610e-03  22.783  < 2e-16 ***
+pop_over_65:log_commute                  -1.582e-01  2.656e-02  -5.955 2.60e-09 ***
+pop_over_65:edu_health_social_industry    4.259e-04  4.423e-05   9.628  < 2e-16 ***
+pop_over_65:Administered_Dose1_Pop_Pct   -3.885e-05  1.886e-05  -2.060 0.039358 *  
+pop_over_65:binge                        -1.431e-03  1.037e-04 -13.801  < 2e-16 ***
+pop_over_65:lpa                          -1.053e-03  9.088e-05 -11.582  < 2e-16 ***
+pop_over_65:chd                          -8.121e-03  7.977e-04 -10.180  < 2e-16 ***
+pop_over_65:csmoking                      3.212e-03  1.598e-04  20.102  < 2e-16 ***
+pop_over_65:diabetes                      1.614e-03  2.423e-04   6.661 2.74e-11 ***
+pop_over_65:health_insur_coverage        -6.440e-03  6.537e-03  -0.985 0.324559    
+under18:log_commute                       8.359e+00  2.524e+00   3.312 0.000928 ***
+under18:edu_health_social_industry       -1.166e-02  5.101e-03  -2.286 0.022277 *  
+under18:Administered_Dose1_Pop_Pct        2.811e-02  2.334e-03  12.047  < 2e-16 ***
+under18:binge                            -2.038e-01  1.361e-02 -14.968  < 2e-16 ***
+under18:lpa                              -1.687e-01  1.189e-02 -14.184  < 2e-16 ***
+under18:chd                              -1.222e+00  1.078e-01 -11.335  < 2e-16 ***
+under18:csmoking                          4.088e-01  2.085e-02  19.610  < 2e-16 ***
+under18:diabetes                          1.052e-01  3.225e-02   3.261 0.001109 ** 
+under18:health_insur_coverage            -1.344e+01  7.389e-01 -18.185  < 2e-16 ***
+log_commute:edu_health_social_industry   -2.135e-01  1.819e-02 -11.739  < 2e-16 ***
+log_commute:Administered_Dose1_Pop_Pct    6.849e-02  7.776e-03   8.809  < 2e-16 ***
+log_commute:binge                        -2.360e-02  3.633e-02  -0.650 0.515904    
+log_commute:lpa                           2.770e-01  3.829e-02   7.234 4.72e-13 ***
+log_commute:chd                          -2.809e+00  3.490e-01  -8.049 8.43e-16 ***
+log_commute:csmoking                      4.921e-01  5.398e-02   9.117  < 2e-16 ***
+log_commute:diabetes                     -1.491e-01  7.748e-02  -1.925 0.054262 .  
+log_commute:health_insur_coverage         4.880e+01  3.021e+00  16.154  < 2e-16 ***
+edu_health_social_industry:Administered_Dose1_Pop_Pct 1.605e-04  1.318e-05  12.174  < 2e-16 ***
+edu_health_social_industry:binge         -1.224e-03  7.966e-05 -15.370  < 2e-16 ***
+edu_health_social_industry:lpa           -6.606e-04  6.911e-05  -9.558  < 2e-16 ***
+edu_health_social_industry:chd           -3.233e-03  5.745e-04  -5.628 1.83e-08 ***
+edu_health_social_industry:csmoking       5.486e-04  1.186e-04   4.626 3.73e-06 ***
+edu_health_social_industry:diabetes       1.038e-03  1.771e-04   5.862 4.59e-09 ***
+edu_health_social_industry:health_insur_coverage -1.096e-02  4.113e-03  -2.664 0.007724 ** 
+Administered_Dose1_Pop_Pct:binge         -5.629e-04  3.049e-05 -18.460  < 2e-16 ***
+Administered_Dose1_Pop_Pct:lpa            1.717e-04  2.437e-05   7.045 1.87e-12 ***
+Administered_Dose1_Pop_Pct:chd            8.376e-04  2.320e-04   3.611 0.000306 ***
+Administered_Dose1_Pop_Pct:csmoking      -3.430e-04  4.147e-05  -8.271  < 2e-16 ***
+Administered_Dose1_Pop_Pct:diabetes      -1.173e-03  6.027e-05 -19.466  < 2e-16 ***
+Administered_Dose1_Pop_Pct:health_insur_coverage  3.493e-02  1.619e-03  21.569  < 2e-16 ***
+binge:lpa                                -1.160e-03  1.356e-04  -8.553  < 2e-16 ***
+binge:chd                                 4.186e-03  1.067e-03   3.925 8.69e-05 ***
+binge:csmoking                            7.823e-04  1.800e-04   4.347 1.38e-05 ***
+binge:diabetes                            4.252e-03  3.748e-04  11.344  < 2e-16 ***
+binge:health_insur_coverage              -9.646e-02  9.574e-03 -10.076  < 2e-16 ***
+lpa:chd                                   1.059e-02  8.667e-04  12.219  < 2e-16 ***
+lpa:csmoking                             -2.221e-04  1.662e-04  -1.336 0.181599    
+lpa:diabetes                             -3.069e-03  2.080e-04 -14.754  < 2e-16 ***
+lpa:health_insur_coverage                 2.973e-01  8.809e-03  33.751  < 2e-16 ***
+chd:csmoking                             -1.626e-02  5.247e-04 -30.995  < 2e-16 ***
+chd:diabetes                              1.176e-02  1.970e-03   5.969 2.40e-09 ***
+chd:health_insur_coverage                -6.870e-02  6.599e-02  -1.041 0.297888    
+csmoking:diabetes                         1.532e-03  4.454e-04   3.438 0.000586 ***
+csmoking:health_insur_coverage           -1.029e-01  1.340e-02  -7.680 1.61e-14 ***
+diabetes:health_insur_coverage           -7.044e-01  2.070e-02 -34.028  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2346 on 114618 degrees of freedom
+Multiple R-squared:  0.3767,	Adjusted R-squared:  0.3763
+F-statistic:  1050 on 66 and 114618 DF,  p-value: < 2.2e-16
